@@ -18,16 +18,9 @@
     <title>GloblaCampWebSpace</title>
 </head>
 <body>
-   <style> 
- body {
-      background-image: url('../Mybad/images/galery/background\ image\ 12.jpg'); /* your image file */
-      background-size: cover;      /* makes it cover the entire screen */
-      background-position: center; /* centers the image */
-      background-repeat: no-repeat; /* prevents repeating */
-      height: 100vh;               /* full height of the viewport */
-      margin: 0;
-    }
-  </style>
+
+
+
 </head>
 <body>
  
@@ -58,25 +51,16 @@
 <br>
 
 <center>
-<h2>Login</h2>
-  <form id="loginForm">
-    <input type="text" id="username" placeholder="Username" required><br>
-    <input type="password" id="password" placeholder="Password" required><br>
-    <button type="submit">Login</button>
-  </form>
+<h1>Post Section</h1>
+  <div id="post-form">
+    <input type="text" id="title" placeholder="Post Title" />
+    <textarea id="content" placeholder="Write your post..."></textarea>
+    <button id="saveBtn">Save Post</button>
+  </div>
 
-  <p>Don't have an account? <a href="#" id="signupLink">Sign up</a></p>
+  <div id="posts"></div>
 
   <script src="script.js"></script>
-
-</center>
-
-<br>
-<br>
-<center>
-<h1 style="font-size: 100px;">
-  Not working Yet
-</h1>
 </center>
 
 
